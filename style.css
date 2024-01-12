@@ -1,0 +1,42 @@
+body{
+    background: -moz-linear-gradient(180deg, rgb(29, 82, 255) 0%, rgb(220, 0, 0) 100%);
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#result{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#dados{
+    border: 3px solid black;
+    border-radius: 100px;
+    padding: 8px;
+    margin: 0;
+}
+
+#bot{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    color: rgba(255, 216, 216, 0.998);
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+#bot:hover{
+    border: 2px solid white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>&#128293; Conversor de Temperaturas &#9924;</h1>
+    <div>
+        <p id="dados">Temperatura atual: 
+            <input type="number" id="temp">
+            <br>
+            <br>
+            <input type="radio" id="celsius" name="temperature" checked>
+            <label for="celsius">Celsius</label>
+
+            <input type="radio" id="fahrenheit" name="temperature">
+            <label for="fahrenheit">Fahrenheit</label>
+
+            <input type="radio" id="kelvin" name="temperature">
+            <label for="kelvin">Kelvin</label>
+            <br>
+            <br>
+            Temperatura necessária: 
+            <select name="temps" id="temps">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <br>
+            <br>
+            <input type="button" id="bot" value="Converter" onclick="converter()">
+        </p>
+    </div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
