@@ -3,6 +3,11 @@ body{
     text-align: center;
 }
 
+div{
+    display: flex;
+    justify-content: center;
+}
+
 p{
     font-size: 1.5rem;
 }
@@ -23,6 +28,7 @@ h1{
     border-radius: 100px;
     padding: 8px;
     margin: 0;
+    width: 30rem;
 }
 
 #bot{
